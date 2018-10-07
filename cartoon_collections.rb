@@ -20,5 +20,6 @@ end
 def find_the_cheese(is_there_cheese)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   is_there_cheese.include? (cheese_types)
+    is_there_cheese.first
 
 end
